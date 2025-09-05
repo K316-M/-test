@@ -1,0 +1,19 @@
+<svg width="200" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- 书本背景 -->
+  <rect width="200" height="280" fill="#6aa84f" />
+  
+  <!-- 书本标题 -->
+  <text x="100" y="100" font-family="Arial" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Mathematics</text>
+  <text x="100" y="130" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Tingkatan 4</text>
+  <text x="100" y="160" font-family="Arial" font-size="18" fill="white" text-anchor="middle">KSSM</text>
+  
+  <!-- 装饰元素 -->
+  <rect x="30" y="200" width="140" height="5" fill="white" />
+  <rect x="30" y="210" width="140" height="3" fill="white" />
+  <rect x="30" y="220" width="140" height="3" fill="white" />
+  
+  <!-- 数学符号 -->
+  <text x="40" y="50" font-family="Arial" font-size="20" fill="white">∑</text>
+  <text x="60" y="50" font-family="Arial" font-size="20" fill="white">π</text>
+  <text x="80" y="50" font-family="Arial" font-size="20" fill="white">√</text>
+</svg>

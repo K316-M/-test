@@ -1,0 +1,19 @@
+<svg width="200" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- 书本背景 -->
+  <rect width="200" height="280" fill="#38761d" />
+  
+  <!-- 书本标题 -->
+  <text x="100" y="100" font-family="Arial" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Biology</text>
+  <text x="100" y="130" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Tingkatan 4</text>
+  <text x="100" y="160" font-family="Arial" font-size="18" fill="white" text-anchor="middle">KSSM</text>
+  
+  <!-- 装饰元素 -->
+  <rect x="30" y="200" width="140" height="5" fill="white" />
+  <rect x="30" y="210" width="140" height="3" fill="white" />
+  <rect x="30" y="220" width="140" height="3" fill="white" />
+  
+  <!-- 生物符号 - DNA双螺旋 -->
+  <path d="M40,30 C50,40 60,30 70,40 C60,50 50,40 40,50 C50,60 60,50 70,60" fill="none" stroke="white" stroke-width="2" />
+  <line x1="40" y1="30" x2="40" y2="50" stroke="white" stroke-width="1" />
+  <line x1="70" y1="40" x2="70" y2="60" stroke="white" stroke-width="1" />
+</svg>

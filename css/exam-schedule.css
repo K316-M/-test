@@ -1,0 +1,54 @@
+/**
+ * SPM考试时间表样式
+ */
+
+/* 考试时间表区域 */
+#spm-exam-schedule {
+    background-color: #f8f9fa;
+}
+
+/* 表格样式 */
+#examScheduleTable {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#examScheduleTable th {
+    background-color: #f1f8ff;
+    border-bottom: 2px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* 理科和商科行样式 */
+#examScheduleTable tr.table-info {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+#examScheduleTable tr.table-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+}
+
+/* 筛选按钮样式 */
+#filterScience:hover, #filterCommerce:hover, #filterAll:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 考试类型标签样式 */
+#examScheduleTable .badge {
+    font-weight: normal;
+    padding: 0.35em 0.65em;
+}
+
+/* 响应式调整 */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    
+    #examScheduleTable th, #examScheduleTable td {
+        white-space: nowrap;
+    }
+}

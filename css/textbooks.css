@@ -1,0 +1,97 @@
+/**
+ * SPM电子课本样式
+ */
+
+/* 电子课本卡片 */
+.textbook-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+}
+
+.textbook-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 电子课本封面 */
+.textbook-cover {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.textbook-cover img {
+    max-height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.textbook-card:hover .textbook-cover img {
+    transform: scale(1.05);
+}
+
+/* 电子课本科目标签 */
+.textbook-subject {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.textbook-subject.math {
+    background-color: #6aa84f;
+}
+
+.textbook-subject.physics {
+    background-color: #3d85c6;
+}
+
+.textbook-subject.chemistry {
+    background-color: #9966cc;
+}
+
+.textbook-subject.biology {
+    background-color: #38761d;
+}
+
+.textbook-subject.english {
+    background-color: #e06666;
+}
+
+.textbook-subject.malay {
+    background-color: #f1c232;
+}
+
+.textbook-subject.chinese {
+    background-color: #cc0000;
+}
+
+/* 电子课本详情模态框 */
+#textbookModal .modal-body img {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+/* 课程大纲手风琴 */
+#syllabusAccordion .accordion-button:not(.collapsed) {
+    background-color: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+}
+
+#syllabusAccordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(13, 110, 253, 0.25);
+}
+
+/* 响应式调整 */
+@media (max-width: 767.98px) {
+    .textbook-cover {
+        height: 180px;
+    }
+}

@@ -1,0 +1,420 @@
+/* 个人中心页面样式 */
+
+/* 页面标题 */
+.page-title {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.page-title h2 {
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.page-title p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+/* 用户信息卡片 */
+.user-info-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1rem;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.user-school {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.user-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+/* 学习目标 */
+.learning-goals {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.learning-goals h5 {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject-goal-item {
+    margin-bottom: 1rem;
+}
+
+.subject-goal-item:last-child {
+    margin-bottom: 0;
+}
+
+/* 内容选项卡 */
+.content-tabs {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.content-tabs .nav-tabs {
+    border-bottom: none;
+    padding: 0.5rem 1rem 0;
+}
+
+.content-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem 0.25rem 0 0;
+    margin-right: 0.25rem;
+}
+
+.content-tabs .nav-link.active {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+    background-color: transparent;
+}
+
+.content-tabs .tab-content {
+    padding: 1.5rem;
+}
+
+/* 学习概览 */
+.overview-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.overview-card h5 {
+    margin-bottom: 1rem;
+}
+
+.chart-container {
+    height: 300px;
+    margin-bottom: 1.5rem;
+}
+
+/* 学习记录 */
+.study-record-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.study-record-item:last-child {
+    border-bottom: none;
+}
+
+.record-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.record-icon i {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.record-content {
+    flex-grow: 1;
+}
+
+.record-title {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.record-meta {
+    display: flex;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.record-meta span {
+    margin-right: 1rem;
+}
+
+.record-time {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* 我的收藏 */
+.collection-item {
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.collection-item:last-child {
+    border-bottom: none;
+}
+
+.collection-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.collection-icon i {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.collection-content {
+    flex-grow: 1;
+}
+
+.collection-title {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.collection-meta {
+    display: flex;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.collection-meta span {
+    margin-right: 1rem;
+}
+
+.collection-actions {
+    display: flex;
+}
+
+.collection-actions a {
+    margin-right: 1rem;
+    font-size: 0.875rem;
+}
+
+/* 我的帖子 */
+.post-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    display: flex;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta span {
+    margin-right: 1rem;
+}
+
+.post-content {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.post-actions {
+    display: flex;
+}
+
+.post-actions a {
+    margin-right: 1rem;
+    font-size: 0.875rem;
+}
+
+/* 账号设置 */
+.settings-section {
+    margin-bottom: 2rem;
+}
+
+.settings-section:last-child {
+    margin-bottom: 0;
+}
+
+.settings-section h5 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* 编辑个人资料模态框 */
+.avatar-upload {
+    position: relative;
+    width: 120px;
+    margin: 0 auto 1.5rem;
+}
+
+.avatar-preview {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.avatar-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-edit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.avatar-edit i {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.avatar-edit input {
+    display: none;
+}
+
+/* 学习目标模态框 */
+.subject-goal-item {
+    margin-bottom: 1rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 991.98px) {
+    .user-info-sidebar {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .user-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .user-stats {
+        flex-wrap: wrap;
+    }
+    
+    .stat-item {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    
+    .content-tabs .nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+    
+    .content-tabs .nav-link {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .user-actions {
+        flex-direction: column;
+    }
+    
+    .user-actions .btn {
+        margin-bottom: 0.5rem;
+    }
+    
+    .record-meta,
+    .collection-meta,
+    .post-meta {
+        flex-direction: column;
+    }
+    
+    .record-meta span,
+    .collection-meta span,
+    .post-meta span {
+        margin-bottom: 0.25rem;
+    }
+}
